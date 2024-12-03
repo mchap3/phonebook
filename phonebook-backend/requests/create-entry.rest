@@ -1,0 +1,21 @@
+POST http://localhost:3001/api/persons
+Content-Type: application/json
+
+{
+    "name": "Sam Example",
+    "number": "1234-531"
+}
+
+###
+
+PUT http://localhost:3001/api/persons/6696e3d7753dc8310ce02814
+Content-Type: application/json
+
+{
+    "name": "Sam Example",
+    "number": "4321-135"
+}
+
+###
+
+GET http://localhost:3001/api/persons/6696e3d7753dc8310ce02814
